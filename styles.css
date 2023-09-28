@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNTYyLW51bm9vbi0xMC1rbDYyM3NsOC5qcGc.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    height: 85vh;
+    left: 20px;
+}
+
+.kund h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    color: salmon;
+    display: flex;
+}
+
+input{
+    display: block;
+    width: 220px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+label{
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+    color: salmon;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    display: block;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: salmon;
+    font-size: 20px;
+    height: 40px;
+    width: 40%;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    background: salmon;
+}
+
+p{
+    display: flex;
+    position: absolute;
+    top: 65vh;
+    border-radius: 20px;
+    max-width: 500px;
+    background-color: salmon;
+    color: white;
+    padding: 10px;
+}
+
+.log-btn{
+    display: block;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: salmon;
+    font-size: 20px;
+    height: 20px;
+    width: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
