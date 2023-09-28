@@ -47,7 +47,7 @@ label{
     align-items: center;
 }
 
-.btn{
+button{
     display: block;
     justify-content: center;
     cursor: pointer;
@@ -64,7 +64,7 @@ label{
     border: none;
 }
 
-.btn:hover{
+button:hover{
     background: salmon;
 }
 
@@ -77,6 +77,7 @@ p{
     background-color: salmon;
     color: white;
     padding: 10px;
+
 }
 
 .log-btn{
@@ -88,8 +89,8 @@ p{
     border-radius: 5px;
     background: salmon;
     font-size: 20px;
-    height: 20px;
-    width: 10px;
+    height: 50px;
+    width: 10%;
     font-weight: bold;
     border-radius: 10px;
     color: white;
