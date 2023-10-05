@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const loggedIn = localStorage.getItem("loggedIn");
     if (loggedIn === "true") {
+        localStorage.setItem("loggedIn");
         showLoggedInState();
     } else {
         showLoggedOutState();
