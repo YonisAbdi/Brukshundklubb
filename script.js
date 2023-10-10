@@ -1,6 +1,3 @@
-let userName = localStorage.getItem("username");
-let passWord = localStorage.getItem("password");
-
 document.addEventListener("DOMContentLoaded", function () {
     const kundUserName = "Bella";
     const kundPassword = "qwe123";
@@ -20,8 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const password = document.getElementById("password").value;
 
         if (username === kundUserName && password === kundPassword) {
-            localStorage.setItem("username", "Bella");
-            localStorage.setItem("password", "qwe123");
+            localStorage.setItem("loggedIn", "true");
             showLoggedInState();
         } else {
             alert("Du har misslyckats att logga in!");
@@ -29,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.getElementById("logga-ut").addEventListener("click", function () {
+        localStorage.setItem("loggedIn", "false");
         showLoggedOutState();
     });
 
